@@ -8,6 +8,7 @@ WORKDIR /workspace/himanshu-jtu-22-assignment/
 EXPOSE 80
 
 # Install Python requirements using Pip.
+RUN pip install -r requirements.txt
 
 # Copy your codebase into the Docker container.
 
